@@ -54,11 +54,11 @@ cola.insert(20)
 cola.insert(30)
 cola.insert(40)
 cola.insert(50)
-cola.insert(60)  # Aquí debería mostrar "Cola llena."
+cola.insert(60)  
 
 print(f"Primer elemento: {cola.peek()}")
 
 while not cola.isEmpty():
     print(f"Elemento removido: {cola.remove()}")
 
-print(f"Elemento removido: {cola.remove()}")  # Aquí debería mostrar "Cola vacía."
+print(f"Elemento removido: {cola.remove()}")  
