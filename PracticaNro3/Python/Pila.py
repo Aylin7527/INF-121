@@ -29,21 +29,18 @@ class Pila:
 
 pila = Pila()
 
-# Insertar elementos en la pila
 pila.push(100)
 pila.push(200)
 pila.push(300)
 pila.push(400)
 pila.push(500)
 
-print("Elemento en la cima:", pila.peek())  # Debería imprimir 500
+print("Elemento en la cima:", pila.peek()) 
 
-# Remover elementos de la pila
-print("Elemento removido:", pila.pop())  # 500
-print("Elemento removido:", pila.pop())  # 400
-print("Elemento removido:", pila.pop())  # 300
-print("Elemento removido:", pila.pop())  # 200
-print("Elemento removido:", pila.pop())  # 100
+print("Elemento removido:", pila.pop())  
+print("Elemento removido:", pila.pop())  
+print("Elemento removido:", pila.pop())  
+print("Elemento removido:", pila.pop())  
+print("Elemento removido:", pila.pop())  
 
-# Intentar remover cuando la pila está vacía
-print("Elemento removido:", pila.pop())  # Debería imprimir "Pila vacía." y retornar -1
+print("Elemento removido:", pila.pop())  
